@@ -4,6 +4,7 @@
 ![tracert](https://github.com/SiSsi9873/ComputerNetworking/blob/master/tracert.png)
 ## 3. 习题
 - P2
+
 共 N 段链路，编号为 1 2 … N+1；当 t1 = NL/R：
 
 分组 1 到达地点 N+1，分组 2 到达 N，...，分组 P 到达地点 N-P+2；
@@ -12,6 +13,7 @@
 
 因此 t = t1 + t2 = (N + P - 1)L/R
 - P5
+
 a.收费站将整个车队推向公路的时间为 t1 = (10辆车)/(5辆车/min) = 2 min;
 
 两收费站之间距离 75 km，从一个收费站到另一个的时间 t2 = 75km/(100km/h) = 0.75 h;
@@ -28,3 +30,5 @@ d' = 3t1' + 2t2 = 94.8 min
 传输时延 = 56 * 8b / 2Mbps = 0.224ms
 
 总时间 = 7ms + 10ms + 0.224ms = 17.224ms
+## 4. wireshark相关资源
+[wireshark](https://github.com/SiSsi9873/wireshark)
