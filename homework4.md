@@ -39,6 +39,7 @@ Destination Address Range			|		Link Interface
 
 223.1.17.192/28
 - P14
+
 The maximum size of data field in each fragment = 680 (because there are 20 bytes IP header). Thus the number of required fragments =[(2400-20)/680] = 4 
 
 Each fragment will have Identification number 422. Each fragment except the last one will be of size 700 bytes (including IP header).
