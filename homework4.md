@@ -7,6 +7,7 @@ b. No, as discussed in the text, only one memory read/write can be done at a tim
 c. No, in this case the two packets would have to be sent over the same output bus at the same time, which is not possible. 
 - P5
 a. 
+
 Prefix Match		|		Link Interface
 11100000  00        |                            	0
 11100000  01000000			  |        	1
