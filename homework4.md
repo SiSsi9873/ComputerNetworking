@@ -8,9 +8,9 @@ c. No, in this case the two packets would have to be sent over the same output b
 - P5
 a. 
 
-Prefix Match		|		Link Interface
-11100000  00        |                            	0
-11100000  01000000			  |        	1
-1110000				       |   	2
-11100001  1			|		3	
- otherwise			 |                     	3
+| Prefix Match		|		Link Interface |
+| 11100000  00        |                      0 |
+| 11100000  01000000			  |        	1 |
+| 1110000				       |   	2 |
+| 11100001  1			|		3	 |
+| otherwise			 |              	3 |
