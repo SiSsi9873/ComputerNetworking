@@ -24,13 +24,14 @@ NO, this is because that decreasing link cost won’t cause a loop (caused by th
 
 - P15
 
-a)I1 because this interface begins the least cost path from 1d towards the gateway router 1c.
+a) I1 because this interface begins the least cost path from 1d towards the gateway router 1c.
 
-b)I2. Both routes have equal AS-PATH length but I2 begins the path that has the closest NEXT-HOP router.
+b) I2. Both routes have equal AS-PATH length but I2 begins the path that has the closest NEXT-HOP router.
 
-c)I1. I1 begins the path that has the shortest AS-PATH.
+c) I1. I1 begins the path that has the shortest AS-PATH.
 
 - P18
+
 BitTorrent file sharing and Skype P2P applications.
 
 Consider a BitTorrent file sharing network in which peer 1, 2, and 3 are in stub networks W, X, and Y respectively. Due the mechanism of BitTorrent’s file sharing, it is quire possible that peer 2 gets data chunks from peer 1 and then forwards those data chunks to 3. This is equivalent to B forwarding data that is finally destined to stub network Y.
