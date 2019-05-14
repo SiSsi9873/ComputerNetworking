@@ -25,6 +25,7 @@ In order to make pA(1-pB)= 2 pB(1-pA), we need that pA= 2 – (pA / pB).
 
 c)A’s throughput is 2p(1-p)N-1, and any other node has throughput p(1-p)N-2(1-2p).
 - P18
+
 At t=0, A transmits. At t=576, A would finish transmitting. In the worst case, B begins transmitting at time t=324, 
 which is the time right before the first bit of A’s frame arrives at B. At time t=324+325=649 's first bit arrives at A.
 Because 649> 576, A finishes transmitting before it detects that B has transmitted. So A incorrectly thinks that its frame was successfully transmitted without a collision.
