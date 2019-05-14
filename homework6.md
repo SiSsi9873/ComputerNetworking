@@ -30,7 +30,7 @@ At t=0, A transmits. At t=576, A would finish transmitting. In the worst case, B
 which is the time right before the first bit of A’s frame arrives at B. At time t=324+325=649 's first bit arrives at A.
 Because 649> 576, A finishes transmitting before it detects that B has transmitted. So A incorrectly thinks that its frame was successfully transmitted without a collision.
 
-- p24
+- P24
 
 Each departmental hub is a single collision domain that can have a maximum throughput of 100 Mbps. 
 The links connecting the web server and the mail server has a maximum throughput of 100 Mbps.
